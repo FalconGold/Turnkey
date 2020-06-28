@@ -9,7 +9,7 @@ import re
 import io
 
 
-client = pymongo.MongoClient("localhost", 27017) #("mongodb://yashsoni:MongoDB@stackshare-shard-00-00-0fjja.mongodb.net:27017,stackshare-shard-00-01-0fjja.mongodb.net:27017,stackshare-shard-00-02-0fjja.mongodb.net:27017/<dbname>?ssl=true&replicaSet=stackshare-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = pymongo.MongoClient("localhost", 27017)
 db = client.automation_zillow
 col = db.data
 
